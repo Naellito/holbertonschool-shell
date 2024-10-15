@@ -1,2 +1,0 @@
-#!/bin/bash
-touch hello && chmod 644 hello && chmod +x 5-execute && ./5-execute && chmod 754 hello && ls -l hello | cut -d' ' -f1 && rm hello
